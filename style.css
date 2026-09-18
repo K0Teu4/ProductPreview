@@ -108,7 +108,7 @@ body {
   padding: 1rem;
   border: none;
   border-radius: 0.625rem;
-  background-color: var(--green-700);
+  background-color: var(--green-500);
   color: var(--white);
   font-family: var(--font-sans);
   font-size: var(--fs-base);
@@ -119,18 +119,18 @@ body {
 }
 
 .product__btn:hover {
-  background-color: var(--black);
+  background-color: var(--green-500);
 }
 
 .product__btn:focus-visible {
-  outline: 3px solid var(--green-500);
+  outline: 3px solid var(--green-700);
   outline-offset: 3px;
 }
 
 @media (min-width: 40em) {
   .product {
     max-width: var(--card-max-width);
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .product__content {
@@ -176,3 +176,4 @@ body {
     animation-duration: 0.01ms !important;
   }
 }
+
